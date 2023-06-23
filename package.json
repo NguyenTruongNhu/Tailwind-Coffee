@@ -1,0 +1,19 @@
+{
+  "name": "coffee",
+  "version": "1.0.0",
+  "description": "nguyentruongnhu.com",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start": "live-server public"
+  },
+  "keywords": [],
+  "author": "nguyentruongnhu.com",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
